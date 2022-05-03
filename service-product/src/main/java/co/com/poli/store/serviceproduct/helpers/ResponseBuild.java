@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 import static org.springframework.http.HttpStatus.*;
 
 @Component
-public class ResponseBuilder {
+public class ResponseBuild {
 
     public Response success() {
         return Response.builder()
