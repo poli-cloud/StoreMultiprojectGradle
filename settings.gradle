@@ -1,3 +1,5 @@
 rootProject.name = 'StoreMultiproject'
 
 include 'service-product'
+include 'config-service'
+include 'eureka-service'
