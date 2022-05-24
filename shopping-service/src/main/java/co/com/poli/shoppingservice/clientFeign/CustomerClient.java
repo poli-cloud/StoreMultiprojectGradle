@@ -5,7 +5,7 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
-@FeignClient(name = "customer-service")
+@FeignClient(name = "customer-service", fallback = CustomerClientImplHystrixFallback.class)
 public interface CustomerClient {
 
     @GetMapping("/store/api/v1/customers/numberID/{numberID}")

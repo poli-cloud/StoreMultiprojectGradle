@@ -12,6 +12,7 @@
         <module name="StoreMultiproject.customer-service.main" />
         <module name="StoreMultiproject.service-product.main" />
         <module name="StoreMultiproject.eureka-service.main" />
+        <module name="StoreMultiproject.gateway-service.main" />
         <module name="StoreMultiproject.shopping-service.main" />
       </profile>
     </annotationProcessing>
